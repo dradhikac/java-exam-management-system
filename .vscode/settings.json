@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "lib"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib\\jbcrypt-0.4.jar",
+        "c:\\Users\\Lenovo\\Desktop\\dsatm-exam-system\\dsatm-exam-system\\lib\\mysql-connector-j-9.5.0\\mysql-connector-j-9.5.0\\mysql-connector-j-9.5.0.jar"
+    ]
+}
