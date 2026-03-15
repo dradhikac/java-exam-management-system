@@ -138,6 +138,7 @@ java Main
 - Role-based authentication
 - Email notifications
 - Docker deployment
+- Backlog Manager
 
 ---
 
