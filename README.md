@@ -78,10 +78,6 @@ src/
 
 ### Admit Card Generation
 ---
-<h3>Admin Menu</h3>
-<p align="center">
-  <img src="Screenshots/adminmenu.png" width="700">
-</p>
 
 <h3>Admit Card Generation</h3>
 <p align="center">
