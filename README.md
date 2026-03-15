@@ -77,8 +77,6 @@ src/
 ![Eligibility Engine](Screenshots/eligibilityengine.png)
 
 ### Admit Card Generation
-
-![Admit Card](Screenshots/admit card.png)
 ---
 <h3>Admin Menu</h3>
 <p align="center">
