@@ -126,7 +126,7 @@ javac -cp ".;lib/mysql-connector-j.jar" src/Main.java
 ```
 java Main
 ```
-
+### Refer the csv files for the importing formats
 ---
 
 # Sample Functionalities
