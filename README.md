@@ -128,7 +128,73 @@ java Main
 ```
 ### Refer the csv files for the importing formats
 ---
+## Examination Eligibility Evaluation Rules
 
+The **Examination Ticketing System** automatically determines whether a student is eligible to appear for an examination based on predefined academic criteria. The evaluation process uses **internal assessment marks and attendance records** stored in the system.
+
+---
+
+### Eligibility Criteria
+
+A student is considered **eligible for a subject** only if the following conditions are satisfied:
+
+1. **Minimum Internal Assessment Marks**
+   - The student must obtain the minimum required internal assessment marks as defined by institutional regulations.
+
+2. **Minimum Attendance Requirement**
+   - The student must meet the minimum attendance percentage required for the subject.
+
+3. **Subject-wise Evaluation**
+   - Eligibility is evaluated separately for each subject using the student’s internal marks and attendance data.
+
+If any of these conditions are not satisfied, the student will be marked **NOT ELIGIBLE** for that subject.
+
+---
+
+### Eligibility Verification Process
+
+The system follows the steps below to evaluate eligibility:
+
+1. Retrieve student internal assessment marks from the database.
+2. Retrieve attendance percentage for each subject.
+3. Compare marks and attendance against the required thresholds.
+4. Assign an eligibility status for each subject.
+
+Possible outcomes:
+
+| Status | Description |
+|------|-------------|
+| ELIGIBLE | Student satisfies both marks and attendance requirements |
+| NOT ELIGIBLE | Student fails to satisfy one or more eligibility criteria |
+
+---
+
+### Admit Card Generation Rule
+
+The admit card generation module strictly follows the eligibility evaluation results.
+
+- Admit cards are generated **only after eligibility verification**.
+- Subjects marked **NOT ELIGIBLE** will still appear on the admit card with their eligibility status.
+- This ensures transparency in the examination process.
+
+---
+
+### Example Eligibility Output
+
+| Subject | Eligibility Status |
+|-------|--------------------|
+| Data Structures | ELIGIBLE |
+| Computer Organization | NOT ELIGIBLE |
+| Operating Systems | NOT ELIGIBLE |
+
+---
+
+### Advantages of Automated Eligibility Evaluation
+
+- Prevents ineligible students from appearing for examinations
+- Reduces manual verification workload
+- Ensures consistent enforcement of academic rules
+- Improves transparency in examination management
 # Sample Functionalities
 
 - Add new students
