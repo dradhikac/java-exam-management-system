@@ -12,3 +12,9 @@ CREATE TABLE students (
     semester INT NOT NULL,
     department VARCHAR(50) NOT NULL
 );
+
+INSERT INTO course_categories VALUES
+('BSC',  'Basic Sciences', TRUE, FALSE),
+('IPCC', 'Integrated Professional Core Course', TRUE, TRUE),
+('PCC',  'Professional Core Course', TRUE, FALSE);
+
