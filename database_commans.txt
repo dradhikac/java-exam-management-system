@@ -18,3 +18,19 @@ INSERT INTO course_categories VALUES
 ('IPCC', 'Integrated Professional Core Course', TRUE, TRUE),
 ('PCC',  'Professional Core Course', TRUE, FALSE);
 
+CREATE TABLE subjects (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+
+    subject_code VARCHAR(20) NOT NULL UNIQUE,
+    subject_name VARCHAR(100) NOT NULL,
+
+    semester INT NOT NULL,
+
+    category_code VARCHAR(10) NOT NULL,
+
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT fk_subject_category
+        FOREIGN KEY (category_code)
+        REFERENCES course_categories(category_code)
+);
