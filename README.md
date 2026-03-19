@@ -1,4 +1,4 @@
-# Java Exam Management System
+# Java Exam Ticketing and Management System 🎓
 
 A **Java console-based examination management system** designed to automate and manage university examination processes including student records, attendance tracking, subject management, exam scheduling, and admit card generation.
 
