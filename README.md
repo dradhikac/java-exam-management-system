@@ -128,6 +128,17 @@ java Main
 ```
 ### Refer the csv files for the importing formats
 ---
+
+## How to Use
+
+1. Login using admin credentials
+2. Navigate through the menu
+3. Add students and subjects
+4. Enter internal marks and attendance
+5. Run eligibility check
+6. Generate admit card
+
+
 ## Examination Eligibility Evaluation Rules
 
 The **Examination Ticketing System** automatically determines whether a student is eligible to appear for an examination based on predefined academic criteria. The evaluation process uses **internal assessment marks and attendance records** stored in the system.
