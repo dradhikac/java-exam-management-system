@@ -70,6 +70,18 @@ CREATE TABLE attendance (
     UNIQUE KEY uk_student_subject (student_id, subject_id)
 );
 
+CREATE TABLE exam_schedule (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    subject_id INT NOT NULL,
+    semester INT NOT NULL,
+    session VARCHAR(50) NOT NULL,
+    exam_date DATE NOT NULL,attendance
+    start_time TIME NOT NULL,
+    end_time TIME NOT NULL,
+    UNIQUE(subject_id, session)
+);
+
+
 ALTER TABLE attendance
 ADD COLUMN condonation_approved BOOLEAN DEFAULT FALSE,
 ADD COLUMN condonation_reason VARCHAR(100);
