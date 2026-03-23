@@ -1,3 +1,8 @@
+![Java](https://img.shields.io/badge/Java-17-blue)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
+![JDBC](https://img.shields.io/badge/API-JDBC-yellow)
+![Project](https://img.shields.io/badge/Type-Console%20Application-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 # Java Exam Ticketing and Management System 🎓
 
 A **Java console-based examination management system** designed to automate and manage university examination processes including student records, attendance tracking, subject management, exam scheduling, and admit card generation.
