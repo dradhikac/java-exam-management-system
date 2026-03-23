@@ -71,6 +71,17 @@ src/
  ├── seed        # Default data loaders
  └── Main.java   # Application entry point
 ```
+## 🔄 System Workflow
+
+1. Admin / Staff logs into the system  
+2. Student and subject data is managed through CLI  
+3. Faculty enters internal marks and attendance  
+4. System validates attendance and marks  
+5. Eligibility engine evaluates each student per subject  
+6. Eligible / Not Eligible status is assigned  
+7. Admit cards are generated based on eligibility  
+8. Results are stored in the database
+--
 ## Screenshots
 
 ### Admin Menu
