@@ -237,6 +237,13 @@ The admit card generation module strictly follows the eligibility evaluation res
 
 
 ---
+## ⚠️ Limitations
+
+- Console-based interface (no web UI)
+- No real-time notifications for students
+- Backlog scheduling not fully implemented
+- Requires manual database setup
+---
 
 # Future Improvements
 
